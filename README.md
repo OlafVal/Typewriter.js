@@ -31,7 +31,7 @@ s = int Speed (delay in microseconds)
 
 **Basic** 
 
-![mcluhan-quote](Examples/mcluhanquote.jpg | width=400)
+![mcluhan-quote](Examples/mcluhanquote.jpg|width=400)
 **Big-Letters**
 
 <br>
