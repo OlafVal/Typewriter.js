@@ -13,22 +13,24 @@
 **Syntax:**
 ```javascript
 tw = new Typewriter();
-tw.twTyp(10, 10, 'This is my example text.');
+tw.twTyp(x, y, t);
 tw.twSpeed(s);
 tw.twCompleted()
 ```
 
 **Parameters:**
 ```javascript
-s = int Speed (delay in microseconds)
+x = X Position
+y = Y Position
 t = String (my text)
+s = int Speed (delay in microseconds)
 ```
 
 
 ## Examples
 
-Basic 
+**Basic** 
 
-Big-Letters
+**Big-Letters**
 
 <br>
