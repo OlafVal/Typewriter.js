@@ -22,5 +22,6 @@ function draw() {
 }
 
 function mousePressed() {
-  tw1.twRestart(); // This also restarts line two
+  tw1.twRestart();
+  tw2.twRestart();
 }
