@@ -19,7 +19,7 @@ tw.twCompleted()
 ```
 
 **Parameters:**
-```javascript
+```
 x = X Position
 y = Y Position
 t = String (my text)
