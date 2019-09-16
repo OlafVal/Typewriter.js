@@ -1,4 +1,4 @@
-![demo-animation](typewriter-mcluhan.gif)
+<img src="typewriter-mcluhan.gif" width=400>
 
 # p5.typewriter.js
 ## A simple little library that writes your text to the screen with Typewriter effect.
@@ -32,6 +32,6 @@ s = int Speed (delay in microseconds)
 **Basic** 
 
 <img src="Examples/mcluhanquote.jpg" width=400>
-**Big-Letters**
+**McLuhan Quote**
 
 <br>
