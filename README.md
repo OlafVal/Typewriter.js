@@ -32,6 +32,7 @@ s = int Speed (delay in microseconds)
 **Basic** 
 
 <img src="Examples/mcluhanquote.jpg" width=400>
+
 **McLuhan Quote**
 
 <br>
