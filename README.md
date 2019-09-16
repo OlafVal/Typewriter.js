@@ -1,3 +1,5 @@
+![demo-animation](typewriter-mcluhan.gif)
+
 # p5.typewriter.js
 ## A simple little library that writes your text to the screen with Typewriter effect.
 
