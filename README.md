@@ -35,4 +35,11 @@ s = int Speed (delay in microseconds)
 <img src="Examples/mcluhanquote.jpg" width=200><br>
 **McLuhan Quote**
 
+
+## ToDo
+
+- [] fade in effect
+- [] Zoom in effect
+- [] Lerft, right and center directions
+
 <br>
