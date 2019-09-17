@@ -13,16 +13,16 @@
 **Syntax:**
 ```javascript
 tw = new Typewriter();
-tw.twTyp(x, y, t);
+tw.twTyp(t, x, y);
 tw.twSpeed(s);
 tw.twCompleted() // returns true when the line is finished
 ```
 
 **Parameters:**
 ```
+t = String (my text)
 x = X Position
 y = Y Position
-t = String (my text)
 s = int Speed (delay in microseconds)
 ```
 
