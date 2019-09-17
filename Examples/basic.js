@@ -14,13 +14,14 @@ function draw() {
   noStroke();
 
   tw1.twSpeed(100); // potional
-  tw1.twTyp(10, 10, 'This is my example text.');
+  tw1.twTyp('This is my example text.', 10, 10);
   if (tw1.twCompleted()) {
     tw2.twSpeed(20); // potional
-    tw2.twTyp(10, 30, 'And here comes the second line.');
+    tw2.twTyp('And here comes the second line.', 10, 30);
   }
 }
 
 function mousePressed() {
-  tw1.twRestart(); // This also restarts line two
+  tw1.twRestart();
+  tw1.twRestart();
 }
