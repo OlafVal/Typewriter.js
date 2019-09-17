@@ -15,7 +15,7 @@
 tw = new Typewriter();
 tw.twTyp(x, y, t);
 tw.twSpeed(s);
-tw.twCompleted()
+tw.twCompleted() // return true when the line is finished
 ```
 
 **Parameters:**
