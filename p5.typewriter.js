@@ -32,7 +32,7 @@ function Typewriter() {
     }
   }
 
-  this.twTyp = function(x, y, TyWrText) {
+  this.twType = function(x, y, TyWrText) {
     this.TyWrTextAll = TyWrText;
     this.TyWrTextDisplay = join(this.TyWrTextPrint, this.TyWrS);
     text(this.TyWrTextDisplay, x, y);
