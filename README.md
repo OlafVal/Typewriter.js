@@ -29,10 +29,10 @@ s = int Speed (delay in microseconds)
 
 ## Examples
 
-<img src="Examples/basic.jpg" width=400><br>
+<img src="Examples/basic.jpg" width=200><br>
 **Basic** 
 
-<img src="Examples/mcluhanquote.jpg" width=400><br>
+<img src="Examples/mcluhanquote.jpg" width=200><br>
 **McLuhan Quote**
 
 <br>
