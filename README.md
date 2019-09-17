@@ -38,7 +38,7 @@ s = int Speed (delay in microseconds)
 
 ## ToDo
 
-- [ ] fade in effect
+- [ ] Fade in effect
 - [ ] Zoom in effect
 - [ ] Lerft, right and center directions
 
