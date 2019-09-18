@@ -11,6 +11,20 @@ function Typewriter() {
   this.TyWrS = ''
   this.TyWrTimer = 0;
   this.TyWrSpeed = 200;
+  this.TyWrAlign = 'LEFT';
+
+  this.twAlign = function(t) {
+    if (t == 'LEFT') {
+      this.TyWrAlign = 'LEFT';
+    }
+    if (t == 'CENTER') {
+      this.TyWrAlign = 'CENTER';
+    }
+    if (t == 'RIGHT') {
+      this.TyWrAlign = 'RIGHT';
+    }
+
+  }
 
   this.twRestart = function() {
     this.TyWrL = 0;
@@ -32,10 +46,19 @@ function Typewriter() {
     }
   }
 
-  this.twType = function(TyWrText, x, y) {
+  this.twTyp = function(TyWrText, x, y) {
+    textAlign(LEFT);
     this.TyWrTextAll = TyWrText;
     this.TyWrTextDisplay = join(this.TyWrTextPrint, this.TyWrS);
-    text(this.TyWrTextDisplay, x, y);
+    if (this.TyWrAlign == 'LEFT') {
+      text(this.TyWrTextDisplay, x, y);
+    }
+    if (this.TyWrAlign == 'RIGHT') {
+      text(this.TyWrTextDisplay, x - textWidth(this.TyWrTextDisplay), y);
+    }
+    if (this.TyWrAlign == 'CENTER') {
+      text(this.TyWrTextDisplay, x - textWidth(this.TyWrTextDisplay) / 2, y);
+    }
 
     if (millis() > this.TyWrTimer + this.TyWrSpeed) {
       this.TyWrTimer = millis();
