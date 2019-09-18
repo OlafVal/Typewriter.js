@@ -40,6 +40,7 @@ s = int Speed (delay in microseconds)
 
 - [ ] Fade in effect
 - [ ] Zoom in effect
-- [ ] Lerft, right and center directions
+- [ ] Animation directions (lerft, right and center) 
+- [ ] Text alignment (lerft, right and center)
 
 <br>
