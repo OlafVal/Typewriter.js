@@ -15,6 +15,7 @@
 tw = new Typewriter();
 tw.twTyp(t, x, y);
 tw.twSpeed(s);
+tw.twAlign(a);
 tw.twCompleted() // returns true when the line is finished
 ```
 
@@ -24,6 +25,7 @@ t = String (my text)
 x = X Position
 y = Y Position
 s = int Speed (delay in microseconds)
+a = text align (LEFT, RIGHT or CENTER)
 ```
 
 
@@ -41,6 +43,6 @@ s = int Speed (delay in microseconds)
 - [ ] Fade in effect
 - [ ] Zoom in effect
 - [ ] Animation directions (lerft, right and center) 
-- [ ] Text alignment (lerft, right and center)
+- [x] Text alignment (lerft, right and center)
 
 <br>
