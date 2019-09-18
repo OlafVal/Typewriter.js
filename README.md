@@ -46,6 +46,5 @@ a = text align (LEFT, RIGHT or CENTER)
 - [ ] Fade in effect
 - [ ] Zoom in effect
 - [ ] Animation directions (lerft, right and center) 
-- [x] Text alignment (lerft, right and center)
 
 <br>
