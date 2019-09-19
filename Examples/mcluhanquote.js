@@ -20,27 +20,30 @@ function draw() {
   textSize(35);
   textStyle(ITALIC);
   tw1.twSpeed(80); // potional
-  tw1.twTyp("I don't necessarily agree  ", 20, 150);
+  tw1.twType("I don't necessarily agree  ", 20, 150);
   if (tw1.twCompleted()) {
     tw2.twSpeed(120); // potional
-    tw2.twTyp('with everything that I say.', 20, 200);
+    tw2.twType('with everything that I say.', 20, 200);
   }
 
   // Blind text for creating a rhetorical pause
   if (tw2.twCompleted()) {
     tw3.twSpeed(400); // potional
-    tw3.twTyp('     ', 20, 250);
+    tw3.twType('     ', 20, 250);
   }
 
   textStyle(NORMAL);
   textSize(25);
   if (tw3.twCompleted()) {
     tw4.twSpeed(50); // potional
-    tw4.twTyp('Marshall McLuhan', 20, 250);
+    tw4.twType('Marshall McLuhan', 20, 250);
   }
 
 }
 
 function mousePressed() {
-  tw1.twRestart(); // This also restarts line two
+  tw1.twRestart();
+  tw2.twRestart();
+  tw3.twRestart();
+  tw4.twRestart();
 }
