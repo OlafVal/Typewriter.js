@@ -46,7 +46,7 @@ function Typewriter() {
     }
   }
 
-  this.twTyp = function(TyWrText, x, y) {
+  this.twType = function(TyWrText, x, y) {
     textAlign(LEFT);
     this.TyWrTextAll = TyWrText;
     this.TyWrTextDisplay = join(this.TyWrTextPrint, this.TyWrS);
