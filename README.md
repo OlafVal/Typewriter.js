@@ -17,6 +17,7 @@ tw.twTyp(t, x, y);
 tw.twSpeed(s);
 tw.twAlign(a);
 tw.twCompleted() // returns true when the line is finished
+tw1.twRestart(); // restarts the typing process (for all lines)
 ```
 
 **Parameters:**
