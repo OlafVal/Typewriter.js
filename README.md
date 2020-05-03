@@ -35,8 +35,10 @@ a = text align (LEFT, RIGHT or CENTER)
 <img src="Examples/basic.jpg" width=200><br>
 **Basic** 
 
+
 <img src="Examples/mcluhanquote.jpg" width=200><br>
 **McLuhan Quote**
+
 
 <img src="Examples/chat-meme.png" width=200><br>
 **Chat Meme**
@@ -44,8 +46,9 @@ a = text align (LEFT, RIGHT or CENTER)
 
 ## ToDo
 
-- [ ] Fade in effect
-- [ ] Zoom in effect
-- [ ] Animation directions (lerft, right and center) 
+- [ ] Line feed at text box end
+- [ ] Markup language for text box
+- [ ] Scrollbar for text box
+- [ ] Typing sounds
 
 <br>
