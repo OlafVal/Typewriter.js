@@ -42,7 +42,6 @@ a = text align (LEFT, RIGHT or CENTER)
 ## ToDo
 
 - [ ] Line feed at text box end
-- [ ] Markup language for text box
 - [ ] Scrollbar for text box
 - [ ] Typing sounds
 
