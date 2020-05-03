@@ -1,4 +1,4 @@
-<img src="p5js-typewriter-js.jpg" width=400> Photo by Wilhelm Gunkel on Unsplash
+<img src="p5js-typewriter-js.jpg" width=400> <small>Photo by Wilhelm Gunkel on Unsplash</small>
 
 # p5.typewriter.js
 ## A simple little library that writes your text to the screen with Typewriter effect.
