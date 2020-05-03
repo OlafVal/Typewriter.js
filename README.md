@@ -8,6 +8,9 @@
 - CC BY 4.0
 
 
+Within a text box, Speed = 0 means that the text can be seen directly without typewriter animation.
+
+
 ## Reference
 
 **Syntax:**
