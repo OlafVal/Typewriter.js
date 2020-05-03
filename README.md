@@ -32,13 +32,11 @@ a = text align (LEFT, RIGHT or CENTER)
 
 ## Examples
 
-<img src="Examples/basic.jpg" width=200><br>
-**Basic** 
+<img src="Examples/basic.jpg" width=200> **Basic** <br>
 
 
 <img src="Examples/mcluhanquote.jpg" width=200><br>
 **McLuhan Quote**
-
 
 <img src="Examples/chat-meme.png" width=200><br>
 **Chat Meme**
