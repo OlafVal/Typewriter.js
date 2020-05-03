@@ -17,14 +17,17 @@ tw.twTyp(t, x, y);
 tw.twSpeed(s);
 tw.twAlign(a);
 tw.twCompleted() // returns true when the line is finished
-tw1.twRestart(); // restarts the typing process (for all lines)
+tw.twRestart(); // restarts the typing process (for all lines)
+tw.twBox(x, y, w, h); // if you want to place a line break, use <br>
 ```
 
 **Parameters:**
 ```
 t = String (my text)
-x = X Position
+x = X Position ()
 y = Y Position
+w = Box Width
+h = Box Height
 s = int Speed (delay in microseconds)
 a = text align (LEFT, RIGHT or CENTER)
 ```
