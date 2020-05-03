@@ -1,4 +1,4 @@
-<img src="p5js-typewriter.jpg" width=400>
+<img src="p5js-typewriter-js.jpg" width=400>
 
 # p5.typewriter.js
 ## A simple little library that writes your text to the screen with Typewriter effect.
