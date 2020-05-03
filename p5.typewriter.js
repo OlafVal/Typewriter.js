@@ -58,8 +58,7 @@ function Typewriter() {
     this.TyWrY = y;
     this.TyWrW = w;
     this.TyWrH = h;
-
-    rect(x, y, w, h);
+    
   }
 
   this.twType = function(TyWrText, x, y) {
