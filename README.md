@@ -44,7 +44,7 @@ a = text align (LEFT, RIGHT or CENTER)
 
 <img src="Examples/chat-meme.jpg" width=200> **Chat Meme**<br>
 
-<img src="Examples/wtBox-example.jpg" width=200> **wtBox-Example**<br>
+<img src="Examples/twBox-example.jpg" width=200> **twBox-Example**<br>
 
 
 ## ToDo
