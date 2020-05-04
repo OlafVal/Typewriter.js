@@ -37,9 +37,9 @@ a = text align (LEFT, RIGHT or CENTER)
 
 ## Examples
 
-<img src="Examples/basic.jpg" width=200> **Basic** [view](http://projects.olafval.de/p5-typewriter/basic.html)<br>
+<img src="Examples/basic.jpg" width=200> **Basic** [view](http://projects.olafval.de/p5-typewriter/basic.html) / [code](Examples/basic.js)<br><br>
 
-<img src="Examples/mcluhanquote.jpg" width=200> **McLuhan Quote** [view](http://projects.olafval.de/p5-typewriter/mcluhanquote.html) <br>
+<img src="Examples/mcluhanquote.jpg" width=200> **McLuhan Quote** [view](http://projects.olafval.de/p5-typewriter/mcluhanquote.html) / [code](Examples/mcluhanquote.js)<br>
 
 <img src="Examples/chat-meme.jpg" width=200> **Chat Meme** [view](http://projects.olafval.de/p5-typewriter/chat-meme.html) / [code](Examples/chat-meme.js)<br>
 
