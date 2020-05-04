@@ -7,8 +7,7 @@
 - by Olaf Val
 - CC BY 4.0
 
-The <b>twTyp()</b> command simply writes a line of text letter by letter on the screen. This works either left or right aligned or centered. In addition twBox() offers a rudimentary function to display entire text blocks on the p5js canvars.
-Within a text box, twSpeed(0) means that the text can be seen directly without typewriter animation. If the coordinates of the twBox() command are set, they overwrite the x and y coordinates of the twType() command.
+The <b>twTyp()</b> command simply writes a line of text letter by letter on the screen. This works either left or right aligned or centered. In addition <b>twBox()</b> offers a rudimentary function to display entire text blocks on the p5js canvars. Within a text box, twSpeed(0) means that the text can be seen directly without typewriter animation. If the coordinates of the twBox() command are set, they overwrite the x and y coordinates of the twType() command.
 
 
 ## Reference
