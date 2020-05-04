@@ -42,7 +42,7 @@ a = text align (LEFT, RIGHT or CENTER)
 
 <img src="Examples/mcluhanquote.jpg" width=200> **McLuhan Quote**<br>
 
-<img src="Examples/chat-meme.jpg" width=200> **Chat Meme**<br>
+<img src="Examples/chat-meme.jpg" width=200> **Chat Meme** [view](http://projects.olafval.de/p5-typewriter/chat-meme.html) <br>
 
 <img src="Examples/twBox-example.jpg" width=200> **twBox-Example** [view](http://projects.olafval.de/p5-typewriter/twBox-example.html) <br>
 
