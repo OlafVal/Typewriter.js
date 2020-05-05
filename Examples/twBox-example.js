@@ -17,7 +17,7 @@ function draw() {
   tw1.twAlign('CENTER');
   
   tw1.twSpeed(10); // potional
-  tw1.twType('p5.typewriter.js<br>This is my slightly longer sample text to demonstrate the automatic line break. This arises as soon as the twBox command is used. It also overrides the positioning of the text. <br><br> Have fun!', 10, 10);
+  tw1.twType('Typewriter.js<br>This is my slightly longer sample text to demonstrate the automatic line break. This arises as soon as the twBox command is used. It also overrides the positioning of the text. <br><br> Have fun!', 10, 10);
 
 }
 
