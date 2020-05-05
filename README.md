@@ -1,7 +1,7 @@
 <img src="p5js-typewriter-js.jpg" width=400> <img src="typewriter-mcluhan-animation.gif" width=400>
 
-# p5.typewriter.js
-## A simple little library that writes your text to the screen with Typewriter effect.
+# Typewriter.js
+## A simple little library that writes your text to the screen with Typewriter effect for p5js.
 
 - Version 0.5 | 16.09.2019
 - by Olaf Val
