@@ -1,4 +1,4 @@
-// p5.Typewriter
+// Typewriter for p5js
 // by Olaf Val
 
 function setup() {
