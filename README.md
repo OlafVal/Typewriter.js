@@ -15,7 +15,7 @@ The <b>twTyp()</b> command simply writes a line of text letter by letter on the 
 **Syntax:**
 ```javascript
 tw = new Typewriter();
-tw.twTyp(t, x, y);
+tw.twType(t, x, y);
 tw.twSpeed(s);
 tw.twAlign(a);
 tw.twCompleted() // returns true when the line is finished
