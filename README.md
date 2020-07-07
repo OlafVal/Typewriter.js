@@ -20,7 +20,7 @@ tw.twSpeed(s);
 tw.twAlign(a);
 tw.twCompleted() // returns true when the line is finished
 tw.twRestart(); // restarts the typing process (for all lines)
-tw.twLines(); // returns the current nuber of lines in the twBox
+tw.twLines(); // Returns the current number of lines in the Box (can be used to trigger a line feed)
 tw.twBox(x, y, w, h); // if you want to place a line break, use <br>
 ```
 
