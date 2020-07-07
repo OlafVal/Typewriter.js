@@ -19,6 +19,7 @@ function Typewriter() {
   this.TyWrH;
   this.testLine = '';
   this.nextBreak = 0;
+  this.TyBreakNr = 0;
 
   this.twAlign = function(t) {
     if (t == 'LEFT') {
@@ -36,10 +37,21 @@ function Typewriter() {
     this.TyWrL = 0;
     this.TyWrTextPrint = [];
     this.TyWrTextDisplay = '';
+    this.TyBreakNr = 0;
   }
 
   this.twSpeed = function(s) {
     this.TyWrSpeed = s;
+  }
+
+  this.twLines = function() {
+    this.TyBreakNr = 1;
+    for(var f5 = 0; f5 < this.TyWrTextDisplay.length; f5++){
+      if(this.TyWrTextDisplay[f5] == '\n'){
+        this.TyBreakNr++;
+      }
+    }
+    return this.TyBreakNr;
   }
 
   this.twCompleted = function() {
@@ -58,7 +70,7 @@ function Typewriter() {
     this.TyWrY = y;
     this.TyWrW = w;
     this.TyWrH = h;
-    
+
   }
 
   this.twType = function(TyWrText, x, y) {
@@ -70,7 +82,7 @@ function Typewriter() {
     } else {
       boxMode = 1;
     }
-    
+
     textAlign(LEFT);
 
     if (boxMode == 0) {
@@ -98,7 +110,7 @@ function Typewriter() {
           append(this.TyWrTextPrint, TyWrText[this.TyWrL]);
         }
 
-        // go through all letters of the current printString 
+        // go through all letters of the current printString
         this.TyWrTextDisplay = '';
         this.TyWrLine = 0;
         for (var f1 = 0; f1 < this.TyWrTextPrint.length; f1++) {
